@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     font-family: "Chivo", sans-serif;
+    font-size:12px;
   }
 
   .background-container {
@@ -85,12 +86,35 @@
 pSchema, ulHalltider {
   text-align: center; /* Center the text within these elements */
   margin-bottom: 20px;
+  color:white;
+  font-weight:normal;
+  font-size:20px;
+  font-family: "Playfair Display", serif;
+  font-weight:bolder;
 }
 
 ulHalltider {
   list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding for the list */ 
+}
+
+pSchema,
+ulHalltider1 {
+  text-align: center; /* Center the text within these elements */
+  margin: 20px auto; /* Center the elements horizontally with 20px top and bottom margin and auto left and right margin */
+  max-width: 60%; /* Adjust max-width as needed */
+  color: white;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+}
+
+ulHalltider1 {
+  list-style-type: none; /* Remove default list styling */
   padding: 0; /* Remove default padding for the list */
 }
+
 
   h1 {
     color: white;
@@ -128,8 +152,8 @@ ulHalltider {
     display: block;
     color:white;
     background-color: transparent;
-    font-size: 50px;
-    font-weight: normal;
+    font-size: 60px;
+    font-weight: bold;
     text-align: center;
     margin: 20px; /* Adjust the margin as needed */
     padding: 10px;  
@@ -137,6 +161,7 @@ ulHalltider {
     margin-left: 250px;
     margin-right: 250px;
     font-family: "Playfair Display", serif;
+    
 }
 
 h4 {
@@ -179,15 +204,17 @@ h4 {
   } 
 
   .Picturetype1 {
-    max-width: 100%; /* Ensure the picture does not exceed the width of its container */
+    max-width: 50%; /* Ensure the picture does not exceed the width of its container */x
+    max-height: 50%;
     margin: 0 auto; /* Center the picture horizontally within its container */
     display: block; /* Make the picture a block element to control its width and margin */
-    position:center;
+    position:auto;
+    
   }
 
   @media only screen and (max-width: 600px) {
     Picturetype1 {
-      max-width: 80%; /* Adjust the width as needed for smaller screens */
+      max-width: 50%; /* Adjust the width as needed for smaller screens */
     }
   }
 
@@ -250,21 +277,50 @@ h4 {
 
   p {
     color: white; /* Set the font color to black */
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 30px; /* Adjust the font size as needed */
     text-align: center; /* Adjust text alignment as needed */
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 1px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
     background-color: transparent;
   }
 
+  .kursiv {
+    font-size:500px;
+    font-style:italic;
+  } 
+
   .Schema {
-    font-size: 34px;
+    font-size: 54px;
     margin-bottom:10px;
     margin-top:10px;
     font-weight: bold
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
+
+    }
+    .Schema1 {
+      font-size: 46px;
+      margin-bottom:10px;
+      margin-top:10px;
+      font-weight: bold
+      font-family: "Playfair Display", serif;
+      font-family: "Playfair Display", serif;
+  
+      }
+
+      .transport {
+        margin-top:0px;
     
- 
+        }
+        
+      .transport1 {
+
+        margin-bottom:0px;
+            
+                }
+  .li {
+    color: white;
   }
 
   /* Media query for devices with a maximum width of 768 pixels (typical width for an iPhone 12) */
@@ -326,11 +382,11 @@ iframe {
 
 /* Default styling for the image */
 #lastimg {
-  width: 80%; /* Adjust this value as needed */
+  width: 100%; /* Adjust this value as needed */
   height: auto;
 }
 #firstimg {
-  width: 95%; /* Adjust this value as needed */
+  width: 90%; /* Adjust this value as needed */
   height: auto;
 }
 
@@ -358,6 +414,8 @@ iframe {
 
 #simg {
   border-radius: 20px; /* Adjust the value as needed to control the roundness */
+  max-width:100%
+
 }
 
 #EJ {
@@ -394,3 +452,12 @@ iframe {
       max-width: 1100px; /* Set a maximum width */
   }
 }
+
+.address-container {
+  display: flex;
+  justify-content: space-around; 
+  width: 50%;
+  margin: 0 auto; 
+}
+
+ 
